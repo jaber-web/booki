@@ -358,7 +358,23 @@ margin-left: 20px;
     .hebergements {
         width: 100%;
     }
+    .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 15px;
+    }
 
+   .filters h2 {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+   .filters-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    }
     .populaires {
         width: 100%;
         margin-top: 50px;
