@@ -566,6 +566,7 @@ margin-left: 20px;
 .recherche-form {
     display: flex;
       width: 100%;
+      align-items: center;
 }
 
 
@@ -574,8 +575,21 @@ margin-left: 20px;
 }
 
 .recherche-input {
-   flex: 1;
-width: 100%;
+    flex: 1;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    appearance: none;
+     text-align: center;
+  padding-left: 0;
+    padding-right: 20px;
+    text-indent: -8px;
+}
+
+.recherche-button {
+    height: 50px;
 }
 
 .recherche-button i {
@@ -589,14 +603,7 @@ width: 100%;
      margin-left: -10px;
 }
 
-.recherche-form input {
-    flex: 1;
-    border: 1px solid #F2F2F2;
-    border-right: none;
-    font-weight: bold;
-    padding: 15px;
-    box-sizing: border-box;
-}
+
 
     .hebergements-cards a,
     .activites-cards a {
