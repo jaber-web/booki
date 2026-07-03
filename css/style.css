@@ -555,13 +555,10 @@ margin-left: 20px;
 }
 
 .recherche-button {
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 15px;
 }
-.recherche-form {
-    margin-top: 30px;
+.recherche-form button {
+    border-radius: 15px;
 }
 
 
