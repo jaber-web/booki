@@ -418,18 +418,6 @@ margin-left: 20px;
         border-top: none;
         border-bottom: 2px solid #0065FC;
     }
-    .hebergements-and-populaires {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 20px;
-}
-.hebergements-and-populaires .hebergements {
-    background-color: white;
-    border-radius: 0;
-    padding: 15px;
-    margin-top: 0;
-    margin-bottom: 5px;
-}
 
  .filters {
         flex-direction: column;
@@ -448,10 +436,25 @@ margin-left: 20px;
     box-sizing: border-box;
 
 }
+
 .filter-button i {
     margin: 0;
 }
 
+
+.hebergements-and-populaires .hebergements {
+    background-color: white;
+    border-radius: 0;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+ .hebergements-and-populaires section {
+    border-radius: 0;
+    padding: 30px 20px;
+}
   
 .hebergements .section-title {
     text-align: left;
@@ -460,17 +463,39 @@ margin-left: 20px;
 
 .section-title {
     font-size:20px;
-    
-
 }
 
- .populaires {
-    width: auto;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 20px;
+
+.hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+        background-color: #F2F2F2;
+        background: transparent;
+    }
+
+.populaires {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    background: #F2F2F2;
     border-radius: 0;
+    padding: 30px 20px;
 }
+.populaires::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background: #F2F2F2;
+}
+
+ .hebergements-cards,
+    .activites-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
 .populaires-title h2 {
     margin: 0;
@@ -492,12 +517,7 @@ margin-left: 20px;
 .populaires-cards .card-subtitle {
     margin-top: 2px;
 }
-    .hebergements-cards,
-    .activites-cards {
-        display: flex;
-        flex-direction: column;
-        
-    }
+   
     .populaires-cards .card-content {
     width: 67%;
     padding-left: 10px;
