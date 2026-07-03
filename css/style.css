@@ -596,7 +596,6 @@ margin-left: 20px;
 }
 
 .recherche-input {
-    flex: 1;
     height: 50px;
     border: 1px solid #F2F2F2;
     font-weight: bold;
@@ -622,6 +621,7 @@ margin-left: 20px;
 .recherche-form button {
     border-radius: 15px;
      margin-left: -10px;
+     width: 50px;
 }
 
 
