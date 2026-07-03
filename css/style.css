@@ -315,6 +315,7 @@ footer {
     justify-content:space-between;
     background-color: var(--main-bg-color);
     margin-top: 50px;
+    padding: 20px;
 }
 
 .footer-column a {
@@ -463,11 +464,14 @@ margin-left: 20px;
 
 }
 
-  .populaires {
-    width: 100%;
-    border-radius: 0;
+ .populaires {
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px;
     padding: 20px;
+    border-radius: 0;
 }
+
 .populaires-title h2 {
     margin: 0;
     margin-bottom: 10px;
@@ -570,9 +574,12 @@ margin-left: 20px;
         height: 200px;
     }
 
-    footer {
-        flex-direction: column;
-    }
+   footer {
+    flex-direction: column;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+}
 
     .footer-column {
         width: 100%;
