@@ -563,9 +563,19 @@ margin-left: 20px;
     color: #0065FC;
     flex-shrink: 0;
 }
+.recherche-form {
+    display: flex;
+      width: 100%;
+}
+
 
 .recherche-button .texte {
     display: none;
+}
+
+.recherche-input {
+   flex: 1;
+width: 100%;
 }
 
 .recherche-button i {
@@ -574,13 +584,19 @@ margin-left: 20px;
     font-size: 18px;
 }
 
-.recherche-button {
-    border-radius: 15px;
-}
 .recherche-form button {
     border-radius: 15px;
+     margin-left: -10px;
 }
 
+.recherche-form input {
+    flex: 1;
+    border: 1px solid #F2F2F2;
+    border-right: none;
+    font-weight: bold;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
     .hebergements-cards a,
     .activites-cards a {
